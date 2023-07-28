@@ -1,0 +1,32 @@
+{ "users":[{"id":1,
+"name":"John Wick",
+"username":"johny",
+"email":"john@gmail.com",
+"phone":"123321",
+"website":"John.info"
+
+
+},{
+  "id": 2,
+  "name": "Ethan Hunt",
+  "username": "Ethan",
+  "email": "ethan@gmail.com",
+  "phone": "234432",
+  "website": "ethan.info"
+},{
+  "id": 3,
+  "name": "James Bond",
+  "username": "james",
+  "email": "james@gmail.com",
+  "phone": "345543",
+  "website": "James.info"
+},{
+  "id": 4,
+  "name": "Jason Bourne",
+  "username": "bourne",
+  "email": "bourne@gmail.com",
+  "phone": "678876",
+  "website": "bourne.info"
+}]
+
+}
