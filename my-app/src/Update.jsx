@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
+import { Link,  useNavigate, useParams } from 'react-router-dom';
 
 const Update = () => {
   // const[data, setData] = useState([]);
@@ -17,7 +17,7 @@ const Update = () => {
       .get("http://localhost:3000/users" + id)
       .then((res) => {setValues(res.data)})
       .catch((err) => console.log(err));
-  }, []);
+  }, [id]);
 
   const handleUpdate=(event)=>{
     event.preventDefault();
